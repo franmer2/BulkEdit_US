@@ -21,9 +21,13 @@ Below is an example with 2 assets. The goal is to automatically update the **"As
 
 In order to run the script, it will be necessary:
 
+
+- Install Python and pip (often bundled with Python installs)
+- Visual Studio Code (or another code editor)
+- Install PyApacheAtlas via pip
 - Register an [application in Azure Active Directory (AAD)](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)
 - Add this application as a **"Data Curator"** at the collection level **"Root"**. More details [here](https://docs.microsoft.com/en-us/azure/purview/catalog-permissions)
-- Visual Studio Code (or another code editor)
+
 
 
 ## The script
